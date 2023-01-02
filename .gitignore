@@ -1,3 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 /node_modules
 /.pnp
@@ -16,12 +18,6 @@
 .env.test.local
 .env.production.local
 
-#Future Work
-
-1> Add Cart
-2> Implement Cart Functionalities
-3> Integrate Payment Gateway
-4> Add forget password feature 
-5> Show all sessions
-6> Add signout of all devices feature
-7> Add Captcha during Login
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
